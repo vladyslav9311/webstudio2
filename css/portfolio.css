@@ -1,0 +1,117 @@
+.portfolio {
+    display: block;
+    box-sizing: border-box;
+    width: 1600px;
+    height: 2350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+/* ====================ХЕДЕР========================== */
+.header_all {
+    box-sizing: border-box;
+    display: block;
+    width: 1600px;
+    height: 31px;
+    color: #000;
+   border: 1px;
+   display: flex;
+   align-items: baseline;
+    
+}
+.menu_nav {
+    
+   width: 1600px;
+   height: 31px;
+   color: #000;
+   border: 1px;
+   display: flex;
+   text-align: center;
+   align-items: baseline;
+   list-style: none;
+   
+}
+.menu_ul {
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    align-items: baseline;
+
+}
+.menu_adres {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+
+#stud {
+    margin-left: 93px;
+}
+#port {
+    padding-left: 50px;
+}
+#cont {
+    padding-left: 50px;
+}
+
+#tel {
+    padding-left: 50px;
+    }
+/* ============ЛОГО=========== */
+.logo {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    margin-left: 215px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+a:hover {
+    color: black;
+    }
+/* ========================МЕНЮ===================== */
+
+.filter {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  
+    /*  Making ul.menu a Flex container  */
+    display: flex;
+    
+  }
+  
+  .filter > .item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .filter .link {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #F5F4FA;
+  }
+  
+  .filter .link:hover {
+    text-decoration: underline;
+  }
