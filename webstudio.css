@@ -1,0 +1,381 @@
+.sait {
+    display: block;
+    box-sizing: border-box;
+    width: 1600px;
+    height: 2350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+/* ====================ХЕДЕР========================== */
+.header_all {
+    box-sizing: border-box;
+    display: block;
+    width: 1600px;
+    height: 31px;
+    color: #000;
+   border: 1px;
+   display: flex;
+   align-items: baseline;
+    
+}
+.menu_nav {
+    
+   width: 1600px;
+   height: 31px;
+   color: #000;
+   border: 1px;
+   display: flex;
+   text-align: center;
+   align-items: baseline;
+   list-style: none;
+   
+}
+.menu_ul {
+    box-sizing: border-box;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    align-items: baseline;
+    
+
+}
+.menu_adres {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
+
+#stud {
+    margin-left: 93px;
+    color: #000;
+    
+
+}
+#port {
+    padding-left: 50px;
+    color: #000;
+    
+}
+#cont {
+    padding-left: 50px;
+    color: #000;
+    
+}
+
+#tel {
+    padding-left: 50px;
+    color: #000;
+    }
+ a:hover {
+        color: black;
+        }
+/* ============ЛОГО=========== */
+.logo {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    margin-left: 215px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/* ==================БАНЕР================= */
+.banner_all {
+    width: 1600px;
+    height: 600px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #2F303A;
+    align-items: center;
+    text-align: center;
+    
+}
+.title1 {
+    box-sizing: border-box;
+    display: block;
+    width: 690px;
+    height: 110px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+   
+}
+#button_baner {
+        display: block;
+        box-sizing: border-box;
+        width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+    }
+    .textbutn{
+        font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+
+
+/* =======================ПЕРЕВАГИ==================== */
+
+/* ЩО РОБИМО */
+
+.text_box_all {
+    margin-left: 215px;
+    margin-right: 215px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 94px;
+}
+.perevagy_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.text_box {
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    }
+.text_perevagy {
+    letter-spacing: 0.03em;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+    }
+/* КАРТИНКИ */
+
+.inwork_all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 294px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inwork1 {
+    padding-top: 50px;
+    margin-left: auto;
+    
+}
+.inwork2 {
+    padding-top: 50px;
+    margin-left: auto;
+    padding-left: 30px;
+}
+.inwork3 {
+    padding-top: 50px;
+    margin-left: auto;
+    padding-left: 30px;
+}
+/* ЗАГОЛОВОК */
+#wwd_h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* КАРТИНКИ */
+.inwork_all {
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 294px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inwork1 {
+    padding-top: 50px;
+    margin-left: auto;
+    
+}
+.inwork2 {
+    padding-top: 50px;
+    margin-left: auto;
+    padding-left: 30px;
+}
+.inwork3 {
+    padding-top: 50px;
+    margin-left: auto;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+/* ========================КОМАНДА======================== */
+.section {
+    box-sizing: border-box;
+    border: 0px;
+    height: 648px;
+    width: auto;
+    background-color: #F5F4FA;
+    
+}
+/* ЗАГОЛОВОК */
+.teamh2 {
+    text-align: center;
+    padding-top: 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    letter-spacing: 0.03em;
+
+}
+
+/* КАРТОЧКИ */
+
+.card_all {
+    
+    padding-top: 50px;
+    margin-left: 215px;
+    display: flex;
+    
+}
+.card-img {
+    width: 270px;
+    height: 270px
+}
+
+
+#card1 {
+    display: block;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+    
+}
+#card2 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+#card3 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+#card4 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+.card-title {
+
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #212121;
+}
+.card_text {
+
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #757575;
+}
+
+
+/* ====================ФУТЕР===================== */
+.footer {
+    box-sizing: border-box;
+    border: 0px;
+    height: 252px;
+    background-color: #2F303A;
+}
+.adres {
+    margin-left: 215px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+.footerbox_txt {
+    margin-left: 215px;
+    padding-top: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 9px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+.footer_div {
+    padding-top: 30px;
+    padding-bottom: auto;
+}
